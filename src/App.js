@@ -1,0 +1,25 @@
+import React from 'react';
+import { Fragment } from 'react';
+import Button from './components/Button';
+import TextField from './components/TextField';
+import H2 from './components/H2';
+import './App.css';
+
+function App() {
+  return (
+    <Fragment>
+      <H2>P2 ACTIVITY PART 2</H2>
+      <Button text="Cancel" color="red" rounded />
+      <Button text="Submit" color="blue" rounded />
+      <TextField id="textfield1" rounded classname="common-textfield" />
+      <TextField id="textfield2" rounded classname="common-textfield" />
+      <TextField id="textfield3" greenBg rounded classname="common-textfield" />
+      <TextField id="textfield4" greenBg rounded classname="common-textfield" />
+      <img src="CITE_logo.png" alt="CITE Logo" className="circular-image" />
+      <img src="mypic.jpg" alt="" className="rounded-square-image" />
+      <img src="mypicc.JPG" alt="" className="rounded-square-image" />
+    </Fragment>
+  );
+}
+
+export default App;
